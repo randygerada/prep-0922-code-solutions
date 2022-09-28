@@ -58,7 +58,7 @@ var name = getFullName('Randy', 'Gerada');
 console.log(name);
 
 function cube(number) {
-  var total4 = ((number) ^ 3);
+  var total4 = (number * number * number);
   return total4;
 }
 
